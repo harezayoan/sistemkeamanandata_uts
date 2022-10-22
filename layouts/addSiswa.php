@@ -73,15 +73,15 @@ if (isset($_POST['submit'])) {
                     <form action="" method="POST">
                         <div class="form-group">
                             <label for="exampleInputEmail1">NISN</label>
-                            <input type="text" name="nisn" class="form-control" placeholder="Masukkan NISN" autocomplete="off">
+                            <input type="text" name="nisn" class="form-control" placeholder="Masukkan NISN" autocomplete="off" required>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Nama</label>
-                            <input type="text" name="nama" class="form-control" placeholder="Masukkan Nama" autocomplete="off">
+                            <input type="text" name="nama" class="form-control" placeholder="Masukkan Nama" autocomplete="off" required>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Alamat</label>
-                            <input type="text" name="alamat" class="form-control" placeholder="Masukkan Alamat" autocomplete="off">
+                            <input type="text" name="alamat" class="form-control" placeholder="Masukkan Alamat" autocomplete="off" required>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Jenis Kelamin</label>
@@ -102,24 +102,24 @@ if (isset($_POST['submit'])) {
                         <div class="form-row">
                             <div class="form-group col-md-3">
                                 <label>Nilai B.Indo</label>
-                                <input type="number" name="bindo" class="form-control" placeholder="..." autocomplete="off">
+                                <input type="number" name="bindo" class="form-control" placeholder="..." autocomplete="off" required>
                             </div>
                             <div class="form-group col-md-3">
                                 <label>Nilai MTK</label>
-                                <input type="number" name="mtk" class="form-control" placeholder="..." autocomplete="off">
+                                <input type="number" name="mtk" class="form-control" placeholder="..." autocomplete="off" required>
                             </div>
                             <div class="form-group col-md-3">
                                 <label>Nilai IPA</label>
-                                <input type="number" name="ipa" class="form-control" placeholder="..." autocomplete="off">
+                                <input type="number" name="ipa" class="form-control" placeholder="..." autocomplete="off" required>
                             </div>
                             <div class="form-group col-md-3">
                                 <label>Nilai IPS</label>
-                                <input type="number" name="ips" class="form-control" placeholder="..." autocomplete="off">
+                                <input type="number" name="ips" class="form-control" placeholder="..." autocomplete="off" required>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Token</label>
-                            <input type="text" name="token" class="form-control" placeholder="Masukkan Token" autocomplete="off">
+                            <input type="text" name="token" class="form-control" placeholder="Masukkan Token" autocomplete="off" required>
                         </div>
                         <button type="submit" name="submit" class="btn btn-primary">Submit</button>
                     </form>

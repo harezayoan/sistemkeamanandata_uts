@@ -73,16 +73,16 @@ if (isset($_POST['submit'])) {
                                     </div>
                                     <form class="user" action="" method="POST">
                                         <div class="form-group">
-                                            <input type="text" name="fullname" class="form-control form-control-user" id="exampleFirstName" placeholder="Full Name">
+                                            <input type="text" name="fullname" class="form-control form-control-user" id="exampleFirstName" placeholder="Full Name" required>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" name="username" class="form-control form-control-user" id="" placeholder="Username">
+                                            <input type="text" name="username" class="form-control form-control-user" id="" placeholder="Username" required>
                                         </div>
                                         <div class="form-group">
-                                            <input type="email" name="email" class="form-control form-control-user" id="" placeholder="Email Address">
+                                            <input type="email" name="email" class="form-control form-control-user" id="" placeholder="Email Address" required>
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" name="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                                            <input type="password" name="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" required>
                                         </div>
                                         <button type="submit" name="submit" class="btn btn-primary btn-user btn-block">
                                             Register Account
